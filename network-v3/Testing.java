@@ -92,13 +92,14 @@ public class Testing
         comments = new ArrayList<>();
     }
     @Test
-    public void testEverything()
+    public void testEverything() //tests everything
     {
         Post("Bob");
+        MessagePost("Hello","Bob");
         Post("Larry");
-        MessagePost("Bob","Hello World!");
+        //MessagePost("Bob","Hello");
         PhotoPost("Larry", "I hate cheez-its");
-        System.out.println("Test Success!");
+        System.out.println("Success");
         
     }
     /**
